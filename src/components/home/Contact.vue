@@ -9,10 +9,10 @@
 				wrap
 				text-xs-center
 			>
-				<v-flex xs6>
-					<v-layout column wrap>
+				<v-flex xs12>
+					<v-layout row pa-2>
 					    <!--Title-->
-						<v-flex xs6>
+						<v-flex xs6 class="mx-4">
 							<h1 xs class="display-2 py-2">
 								<form>
 									<v-text-field
@@ -36,6 +36,9 @@
 								</form>
 							</h1>
 						</v-flex>
+						<v-flex xs6 class="mx-4">
+							<contact-location></contact-location>	
+						</v-flex>
 
 					</v-layout>
 				</v-flex>
@@ -45,8 +48,12 @@
 </template>
 
 <script>
-export default {
 
+import ContactLocation from '@/components/home/contact/ContactLocation'
+export default {
+	components: {
+		ContactLocation,
+	}
 }
 </script>
 
