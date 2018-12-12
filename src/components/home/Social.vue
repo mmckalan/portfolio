@@ -1,5 +1,5 @@
 <template>
-    <section id="social">
+    <section id="social" class="light">
         <v-layout row wrap class="justify-center">            
             <v-btn class="mx-4 my-3" color="success">LinkedIn</v-btn>
             <v-btn class="mx-4 my-3" color="success">Github</v-btn>

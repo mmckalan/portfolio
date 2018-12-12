@@ -1,5 +1,5 @@
 <template>
-    <section id="contact">
+    <section id="contact" class="light">
 		<v-container fill-height>
 			<v-layout
 				fill-height

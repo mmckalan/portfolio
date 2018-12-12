@@ -27,6 +27,8 @@
 </template>
 
 <script>
+import '@/assets/stylus/main.styl'
+
 export default {
   data () {
     return {
