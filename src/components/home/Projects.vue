@@ -7,206 +7,156 @@
 				row
 				wrap
 				text-xs-center
+				justify-center=""
 			>
-				<v-flex xs12>
+				<v-flex xs12 mx-5> 
+					<v-flex xs12 class="text-xs-left" px-4>
+						<span class="display-1">Projects</span>
+					</v-flex>
+					<v-flex xs12 class="text-xs-left" px-4 py-2>
+						<span class="subheading">My skills: HTML5, CSS, PHP, JavaScript, Vue.js, Node.js, Laravel, Linux, SQL, MySQL, Elasticsearch, Git.</span>
+					</v-flex>
 					<v-layout row wrap>
 						
 						<v-flex xs6 md4 pa-4>
-							<v-card class="full-height">
+							<v-card 
+								class="full-height"
+								
+								>
 								<img
 									src="https://goo.gl/pLshnq"
-									height="100px"
+									height="200vh"
 								/>
 
-								<!-- Title -->
-								<v-flex xs12 mt-2>
-									<h3 class="headline">
-										Project 1
-									</h3>
-								</v-flex>
 
-								<!-- Text -->
-								<v-flex pa-4>
-									Project description
-								</v-flex>
 								
 								<v-divider></v-divider>
+
+								<!-- Title -->
+								<v-flex xs12 class="mt-3">
+									<h3 class="subheading">
+										GitHub Profile Viewer
+									</h3>
+								</v-flex>
+								<!-- Text -->
+								<v-flex>
+									<p class="caption ma-2 mx-4">A simple GitHub profile viewer made with HTML5, CSS and Vanilla JS</p>
+								</v-flex>
 								
-								<!-- Action buttons-->
-								<v-flex pa-4>
-									<v-btn color="primary">
+								<v-flex>
+									<v-btn 
+										color="#75ccac"
+										class="white--text"
+										depressed
+									>
+									<v-icon style="font-size:15px;" class="mr-1">fab fa-github</v-icon>
 										GITHUB
 									</v-btn>
-									<v-btn color="primary">
+									<v-btn 
+										color="#75ccac"
+										class="white--text"
+										depressed
+									>
+										<v-icon style="font-size:15px;" class="mr-1">fas fa-clipboard-check</v-icon>
 										LIVE
 									</v-btn>
 								</v-flex>
-							</v-card>
-						</v-flex>
-
-						<v-flex xs6 md4 pa-4>
-							<v-card class="full-height">
-								<img
-									src="https://goo.gl/pLshnq"
-									height="100px"
-								/>
-
-								<!-- Title -->
-								<v-flex xs12 mt-2>
-									<h3 class="headline">
-										Project 2
-									</h3>
-								</v-flex>
-
-								<!-- Text -->
-								<v-flex pa-4>
-									Project description
-								</v-flex>
-								
-								<v-divider></v-divider>
-								
 								<!-- Action buttons-->
-								<v-flex pa-4>
-									<v-btn color="primary">
-										GITHUB
-									</v-btn>
-									<v-btn color="primary">
-										LIVE
-									</v-btn>
-								</v-flex>
-							</v-card>
-						</v-flex>
-
-						<v-flex xs6 md4 pa-4>
-							<v-card class="full-height">
-								<img
-									src="https://goo.gl/pLshnq"
-									height="100px"
-								/>
-
-								<!-- Title -->
-								<v-flex xs12 mt-2>
-									<h3 class="headline">
-										Project 3
-									</h3>
-								</v-flex>
-
-								<!-- Text -->
-								<v-flex pa-4>
-									Project description
-								</v-flex>
-								
-								<v-divider></v-divider>
-								
-								<!-- Action buttons-->
-								<v-flex pa-4>
-									<v-btn color="primary">
-										GITHUB
-									</v-btn>
-									<v-btn color="primary">
-										LIVE
-									</v-btn>
-								</v-flex>
-							</v-card>
-						</v-flex>
-
-						<v-flex xs6 md4 pa-4>
-							<v-card class="full-height">
-								<img
-									src="https://goo.gl/pLshnq"
-									height="100px"
-								/>
-
-								<!-- Title -->
-								<v-flex xs12 mt-2>
-									<h3 class="headline">
-										Project 4
-									</h3>
-								</v-flex>
-
-								<!-- Text -->
-								<v-flex pa-4>
-									Project description
-								</v-flex>
-								
-								<v-divider></v-divider>
-								
-								<!-- Action buttons-->
-								<v-flex pa-4>
-									<v-btn color="primary">
-										GITHUB
-									</v-btn>
-									<v-btn color="primary">
-										LIVE
-									</v-btn>
-								</v-flex>
 							</v-card>
 						</v-flex>
 						<v-flex xs6 md4 pa-4>
-							<v-card class="full-height">
+							<v-card 
+								class="full-height"
+								
+								>
 								<img
 									src="https://goo.gl/pLshnq"
-									height="100px"
+									height="200vh"
 								/>
 
-								<!-- Title -->
-								<v-flex xs12 mt-2>
-									<h3 class="headline">
-										Project 5
-									</h3>
-								</v-flex>
 
-								<!-- Text -->
-								<v-flex pa-4>
-									Project description
-								</v-flex>
 								
 								<v-divider></v-divider>
+
+								<!-- Title -->
+								<v-flex xs12 class="mt-3">
+									<h3 class="subheading">
+										GitHub Profile Viewer
+									</h3>
+								</v-flex>
+								<!-- Text -->
+								<v-flex>
+									<p class="caption ma-2 mx-4">A simple GitHub profile viewer made with HTML5, CSS and Vanilla JS</p>
+								</v-flex>
 								
-								<!-- Action buttons-->
-								<v-flex pa-4>
-									<v-btn color="primary">
+								<v-flex>
+									<v-btn 
+										color="#75ccac"
+										class="white--text"
+										depressed
+									>
+									<v-icon style="font-size:15px;" class="mr-1">fab fa-github</v-icon>
 										GITHUB
 									</v-btn>
-									<v-btn color="primary">
+									<v-btn 
+										color="#75ccac"
+										class="white--text"
+										depressed
+									>
+										<v-icon style="font-size:15px;" class="mr-1">fas fa-clipboard-check</v-icon>
 										LIVE
 									</v-btn>
 								</v-flex>
+								<!-- Action buttons-->
 							</v-card>
 						</v-flex>
 						<v-flex xs6 md4 pa-4>
-							<v-card class="full-height">
+							<v-card 
+								class="full-height"
+								
+								>
 								<img
 									src="https://goo.gl/pLshnq"
-									height="100px"
+									height="200vh"
 								/>
 
-								<!-- Title -->
-								<v-flex xs12 mt-2>
-									<h3 class="headline">
-										Project 6
-									</h3>
-								</v-flex>
 
-								<!-- Text -->
-								<v-flex pa-4>
-									Project description
-								</v-flex>
 								
 								<v-divider></v-divider>
+
+								<!-- Title -->
+								<v-flex xs12 class="mt-3">
+									<h3 class="subheading">
+										GitHub Profile Viewer
+									</h3>
+								</v-flex>
+								<!-- Text -->
+								<v-flex>
+									<p class="caption ma-2 mx-4">A simple GitHub profile viewer made with HTML5, CSS and Vanilla JS</p>
+								</v-flex>
 								
-								<!-- Action buttons-->
-								<v-flex pa-4>
-									<v-btn color="primary">
+								<v-flex>
+									<v-btn 
+										color="#75ccac"
+										class="white--text"
+										depressed
+									>
+									<v-icon style="font-size:15px;" class="mr-1">fab fa-github</v-icon>
 										GITHUB
 									</v-btn>
-									<v-btn color="primary">
+									<v-btn 
+										color="#75ccac"
+										class="white--text"
+										depressed
+									>
+										<v-icon style="font-size:15px;" class="mr-1">fas fa-clipboard-check</v-icon>
 										LIVE
 									</v-btn>
 								</v-flex>
+								<!-- Action buttons-->
 							</v-card>
 						</v-flex>
-						
+
 					</v-layout>
 					
 				</v-flex>

@@ -1,8 +1,9 @@
 <template>
 	<v-content>
 		<welcome />
-		<social />
+		<v-divider class="mx-5 pa-2"></v-divider>
 		<projects />
+		<social />
 		<contact />
 	</v-content>
 </template>

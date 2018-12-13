@@ -1,7 +1,9 @@
 <template>
   <v-app id="inspire">
-    <v-toolbar>
-      <v-toolbar-title>Alan Mac Cormack - Portfolio</v-toolbar-title>
+    <v-toolbar
+      flat
+    >
+      <v-toolbar-title class="caption">Alan Mac Cormack - Portfolio</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
          <v-btn
@@ -9,6 +11,7 @@
           :key="item.icon"
           :to="item.link"
           flat
+          class="caption"
         >{{ item.title }}</v-btn>
       </v-toolbar-items>
       <v-menu class="hidden-md-and-up">
