@@ -1,6 +1,6 @@
 <template>
-    <section id="projects">
-		<v-container fill-height>
+    <section id="projects" class="light">
+		<v-container fill-height color="indigo" dark>
 			<v-layout
 				fill-height
 				align-start
