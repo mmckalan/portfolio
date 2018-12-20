@@ -1,7 +1,6 @@
 <template>
 	<v-content>
 		<welcome />
-		<v-divider class="mx-5 pa-2"></v-divider>
 		<projects />
 		<social />
 		<contact />

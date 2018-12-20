@@ -5,6 +5,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import * as VueGoogleMaps from 'vue2-google-maps'
+import VueImg from 'v-img';
+ 
 
 Vue.use(Vuetify)
 
@@ -27,6 +29,8 @@ Vue.use(Vuetify, {
 		primary: '#75ccac',
 	},
 })
+
+Vue.use(VueImg);
 
 /* eslint-disable no-new */
 new Vue({

@@ -1,5 +1,5 @@
 <template>
-    <section id="welcome" light>
+    <section id="welcome" class="light ma-0">
 		<v-container fill-height>
 			<v-layout
 				fill-height
@@ -48,6 +48,7 @@
 				</v-flex>
 			</v-layout>
 		</v-container>
+		
 	</section>
 </template>
 
