@@ -1,16 +1,17 @@
 <template>
-    <section id="welcome" light>
-		<v-container>
+    <section id="welcome" class="light ma-0">
+		<v-container fill-height>
 			<v-layout
 				fill-height
+				align-start
 				row
 				wrap
 				justify-center
 			>
-				<v-flex xs10 ma-3>
+				<v-flex xs12>
 					<v-layout row wrap class="justify-center align-center">						
 							<!--Title-->
-							<v-flex xs12 lg7 text-xs-left mx-5>
+							<v-flex xs12 lg6 text-xs-left mx-5>
 								<h1 class="display-1">
 									Hello there.
 								</h1>
@@ -35,8 +36,7 @@
 							</v-flex>
 
 							<!--SubTitle-->
-							<v-flex xs12 sm5 lg3 class="text-xs-center">
-								<v-avatar size="30vh">
+							<v-flex xs12 sm5 md4 lg4>
 									<img 
 										src="https://goo.gl/cYMgW4" 
 										alt="avatar"
@@ -49,6 +49,7 @@
 				</v-flex>
 			</v-layout>
 		</v-container>
+		
 	</section>
 </template>
 
