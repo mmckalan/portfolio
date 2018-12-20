@@ -9,7 +9,7 @@
 				wrap
 				text-xs-center
 			>
-				<v-flex xs12>
+				<v-flex xs10 ma-3>
 					<v-layout row pa-2>
 					    <!--Title-->
 						<v-flex xs6 class="mx-4">
@@ -36,9 +36,14 @@
 								</form>
 							</h1>
 						</v-flex>
-						<v-flex xs6 class="mx-4">
-							<contact-location></contact-location>	
-						</v-flex>
+						<v-layout column>							
+							<v-flex xs6 class="mx-4">
+								<contact-location />
+							</v-flex>
+							<v-flex xs1>	
+								<social />
+							</v-flex>
+						</v-layout>
 
 					</v-layout>
 				</v-flex>
@@ -50,9 +55,11 @@
 <script>
 
 import ContactLocation from '@/components/home/contact/ContactLocation'
+import Social from '@/components/home/contact/Social'
 export default {
 	components: {
 		ContactLocation,
+		Social,
 	}
 }
 </script>
