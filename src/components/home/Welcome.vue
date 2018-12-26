@@ -1,55 +1,43 @@
 <template>
-    <section id="welcome" class="light ma-0">
-		<v-container fill-height>
-			<v-layout
+    <section id="welcome" class="light">
+			<v-responsive
 				fill-height
-				align-start
 				row
 				wrap
-				justify-center
+				height="95vh"
+				class="align-center justify-center"
 			>
-				<v-flex xs12>
-					<v-layout row wrap class="justify-center align-center">						
+				<v-flex xs12 class="text-xs-center pa-5">
+					<v-layout column>						
 							<!--Title-->
-							<v-flex xs12 lg6 text-xs-left mx-5>
-								<h1 class="display-1">
+							<v-flex xs12>
+								<h1 class="display-4 my-2">
 									Hello there.
 								</h1>
-								<h1 class="display-1">
+								<h1 class="display-4 my-2">
 									Alan here.
 								</h1>
-								<h2 class="body-1">
-									I'm a Full-Stack developer.<br>
-									Obsessed about contribute to society by solving problems, I dream, eat and breath technology.<br>
-									My skills: HTML5, CSS, PHP, JavaScript, Vue.js, Node.js, Laravel, Linux, SQL, MySQL, Elasticsearch, Git.
-
-								</h2>
+								<v-flex xs12 class="ma-5" >									
+									<h2 class="headline">
+										Full-Stack developer obsessed about contribute to society by solving daily problems.<br>
+										I dream, eat and breath technology.<br>
+									</h2>
+								</v-flex>
 								<v-flex xs12 py-4>
 									<v-btn 
-										class="ma-0 white--text"
+										class=" white--text"
 										color="#75ccac"
 										depressed
+										large
 									>
 										GET IN TOUCH
 									</v-btn>								
 								</v-flex>
 							</v-flex>
 
-							<!--SubTitle-->
-							<v-flex xs12 sm5 md4 lg4>
-									<img 
-										src="https://goo.gl/cYMgW4" 
-										alt="avatar"
-										width="100%"
-										>
-								</v-avatar>
-							</v-flex>
-
 					</v-layout>
 				</v-flex>
-			</v-layout>
-		</v-container>
-		
+			</v-responsive>		
 	</section>
 </template>
 
@@ -60,5 +48,4 @@ export default {
 </script>
 
 <style>
-
 </style>
