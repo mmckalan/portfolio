@@ -1,19 +1,26 @@
 <template>
-    <section id="contact" class="light">
+    <section id="contact" class="dark-background">
 		<v-container fill-height>
 			<v-layout
-				fill-height
-				align-center
-				justify-center
 				row
 				wrap
-				text-xs-center
 			>
-				<v-flex xs10 ma-3>
-					<v-layout row pa-2>
-					    <!--Title-->
+				<v-divider class="ma-4"></v-divider>
+				<v-flex xs12 class="text-xs-center">
+
+					<v-flex xs12  px-4 py-2>
+						<span class="display-1">Contact me</span>
+					</v-flex>
+				
+					<v-flex xs12 px-4 py-2>
+						<span class="title">You can throw me an e-mail or follow me on my social networks</span>
+					</v-flex>
+
+					<v-layout row pa-2 class="justify-center">
 						<v-flex xs6 class="mx-4">
-							<h1 xs class="display-2 py-2">
+							<v-flex>	
+								<social />
+							</v-flex>
 								<form>
 									<v-text-field
 										label="Name"
@@ -31,19 +38,11 @@
 										no-resize
 									></v-textarea>
 
-									<v-btn color="primary">submit</v-btn>
-									<v-btn color="primary">clear</v-btn>
+									<v-btn color="success" large class="px-3"><v-icon small class="mr-2">fa-paper-plane</v-icon> submit</v-btn>
+									<v-btn color="error" large class="px-3"><v-icon small class="mr-2">fa-trash-alt</v-icon>clear</v-btn>
 								</form>
-							</h1>
 						</v-flex>
-						<v-layout column>							
-							<v-flex xs6 class="mx-4">
-								<contact-location />
-							</v-flex>
-							<v-flex xs1>	
-								<social />
-							</v-flex>
-						</v-layout>
+
 
 					</v-layout>
 				</v-flex>
@@ -54,11 +53,9 @@
 
 <script>
 
-import ContactLocation from '@/components/home/contact/ContactLocation'
 import Social from '@/components/home/contact/Social'
 export default {
 	components: {
-		ContactLocation,
 		Social,
 	}
 }

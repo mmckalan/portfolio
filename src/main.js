@@ -5,16 +5,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import * as VueGoogleMaps from 'vue2-google-maps'
-import VueImg from 'v-img';
- 
-
-Vue.use(Vuetify)
+import VueImg from 'v-img'
 
 
-Vue.use(Vuetify, {
-	iconfont: 'fa'
-   })
-   
+
 Vue.config.productionTip = false
 
 Vue.use(VueGoogleMaps, {
@@ -22,15 +16,15 @@ Vue.use(VueGoogleMaps, {
 		key: 'AIzaSyBQ5RWZ_1--POjRTpycSsVRvtPCoBAr-lU',
 		libraries: 'places', // necessary for places input
 	},
-})
-  
+})  
 Vue.use(Vuetify, {
 	theme: {
 		primary: '#75ccac',
 	},
+	iconfont: 'fa'
 })
 
-Vue.use(VueImg);
+Vue.use(VueImg)
 
 /* eslint-disable no-new */
 new Vue({

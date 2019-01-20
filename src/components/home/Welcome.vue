@@ -1,5 +1,5 @@
 <template>
-    <section id="welcome" class="light">
+    <section id="welcome" class="dark-background">
 			<v-responsive
 				fill-height
 				row
@@ -25,7 +25,7 @@
 								</v-flex>
 								<v-flex xs12 py-4>
 									<v-btn 
-										class=" white--text"
+										class="white--text"
 										color="#75ccac"
 										depressed
 										large

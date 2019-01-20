@@ -2,7 +2,6 @@
 	<v-app id="inspire">
 	<v-toolbar
 		flat
-		color="white"
 	>
 		<v-toolbar-title class="caption">Alan Mac Cormack - Portfolio</v-toolbar-title>
 		<v-spacer></v-spacer>
