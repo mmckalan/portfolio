@@ -3,32 +3,44 @@
             row 
             wrap 
             class="justify-center"
-        >            
+        >          
+        <v-flex xs10 md12>
                 <fa-icon
 				    :icon="['fab', 'facebook-square']"
-					size="2x"
+					size="5x"
+                    class="mx-3 my-4"
 					color="#4463AD"
                 />
                 <fa-icon
 				    :icon="['fab', 'linkedin']"
-					size="2x"
-					color="#4463AD"
+					size="5x"
+                    class="mx-3 my-4"
+					color="#0077B5"
                 />
+
+
                 <fa-icon
 				    :icon="['fab', 'twitter-square']"
-					size="2x"
-					color="#4463AD"
+					size="5x"
+                    class="mx-3 my-4"
+					color="#009EEE"
                 />
+
                 <fa-icon
 				    :icon="['fab', 'github']"
-					size="2x"
-					color="#4463AD"
+					size="5x"
+                    class="mx-3 my-4"
+					color="#009EEE"
                 />
+                                    
+                
                 <fa-icon
 				    :icon="['fab', 'instagram']"
-					size="2x"
-					color="#4463AD"
+					size="5x"
+                    class="mx-3 my-4"
+					color="#D40270"
                 />
+            </v-flex>  
         </v-layout>
 </template>
 

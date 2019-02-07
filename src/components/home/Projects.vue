@@ -1,20 +1,29 @@
 <template>
-	<section id="projects" class="dark-background">
+	<section id="projects">
 		<v-container fill-height>
 			<v-layout
 				row
 				wrap
 				text-xs-center
 			>
-				<v-divider class="ma-4"></v-divider>
+				<v-divider class="ma-4" />
 				
 				<v-flex xs12> 
-				
-					<v-flex xs12 class="text-xs-center" px-4 py-2>
+					<v-flex 
+						xs12 
+						class="text-xs-center" 
+						px-4 
+						py-2
+					>
 						<span class="display-1">Projects</span>
 					</v-flex>
 				
-					<v-flex xs12 class="text-xs-center" px-4 py-2>
+					<v-flex 
+						xs12 
+						class="text-xs-center" 
+						px-4 
+						py-2
+					>
 						<span class="title">My skills: HTML5, CSS, PHP, JavaScript, Vue.js, Node.js, Laravel, Linux, SQL, MySQL, Elasticsearch, Git.</span>
 					</v-flex>
 					
@@ -186,25 +195,25 @@
 										
 												<v-divider></v-divider>
 										
-												<v-card-actions>
-													<v-spacer></v-spacer>
-													<v-layout row wrap>														
-														<v-btn
-															color="primary"
-															flat
-															@click="dialog = false"
-														>
-															Github
-														</v-btn>
-														<v-btn
-															color="primary"
-															flat
-															@click="dialog = false" 
-														>
-															Live
-														</v-btn>
-													</v-layout>
-												</v-card-actions>
+													<v-card-actions>
+														<v-spacer></v-spacer>
+														<v-layout row wrap>														
+															<v-btn
+																color="primary"
+																flat
+																@click="dialog = false"
+															>
+																Github
+															</v-btn>
+															<v-btn
+																color="primary"
+																flat
+																@click="dialog = false" 
+															>
+																Live
+															</v-btn>
+														</v-layout>
+													</v-card-actions>
 												</v-card>
 											</v-dialog>
 										</v-flex>

@@ -1,6 +1,5 @@
 <template>
-    <section id="contact" class="dark-background">
-		<v-container fill-height>
+    <section id="contact">
 			<v-layout
 				row
 				wrap
@@ -13,51 +12,16 @@
 					</v-flex>
 				
 					<v-flex xs12 px-4 py-2>
-						<span class="title">You can throw me an e-mail or follow me on my social networks</span>
+						<span class="title">You can contact me via e-mail to <strong>mmckalan@gmail.com</strong> or follow me on my social networks</span>
 					</v-flex>
-
-					<v-layout row pa-2 class="justify-center">
-						<v-flex xs6 class="mx-4">
-							<v-flex>	
-								<social />
-							</v-flex>
-								<form>
-									<v-text-field
-										label="Name"
-										required
-									></v-text-field>
-									<v-text-field
-										label="E-mail"
-										required
-									></v-text-field>
-									<v-text-field
-										label="Subject"
-									></v-text-field>
-									<v-textarea
-										label="Message"
-										no-resize
-									></v-textarea>
-
-									<v-btn color="success" large class="px-3"><v-icon small class="mr-2">fa-paper-plane</v-icon> submit</v-btn>
-									<v-btn color="error" large class="px-3"><v-icon small class="mr-2">fa-trash-alt</v-icon>clear</v-btn>
-								</form>
-						</v-flex>
-
-
-					</v-layout>
 				</v-flex>
 			</v-layout>
-		</v-container>
 	</section>
 </template>
 
 <script>
 
-import Social from '@/components/home/contact/Social'
 export default {
-	components: {
-		Social,
-	}
 }
 </script>
 

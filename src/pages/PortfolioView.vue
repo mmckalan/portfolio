@@ -1,8 +1,10 @@
 <template>
 	<v-content>
 		<welcome />
-		<projects />
-		<contact />
+		<v-container grid-list-xs >			
+			<projects />
+			<contact />
+		</v-container>
 	</v-content>
 </template>
 
